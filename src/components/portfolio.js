@@ -1,10 +1,10 @@
 import React from 'react';
-import BudgetTracker from '../assets/images/budget-tracker.png';
-import NoteTaker from '../assets/images/note-taker.png';
-import WeatherDashboard from '../assets/images/weather-dash.png';
+import BudgetTracker from '../assets/images/budget-tracker.PNG';
+import NoteTaker from '../assets/images/note-taker.PNG';
+import WeatherDashboard from '../assets/images/weather-dash.PNG';
 import CodeQuiz from '../assets/images/code.png';
-import PasswordGenerator from '../assets/images/password.png';
-import Horiseon from '../assets/images/horiseon.png';
+import PasswordGenerator from '../assets/images/password.PNG';
+import Horiseon from '../assets/images/horiseon.PNG';
 import '../App.css';
 import '../portfolio.css';
 

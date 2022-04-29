@@ -6,9 +6,10 @@ import {
     Link,
     Redirect
 } from "react-router-dom";
-import About from '../components/about';
-import Portfolio from '../components/portfolio';
-import Contact from '../components/contact';
+import About from './about';
+import Portfolio from './portfolio';
+import Contact from './contact';
+import Resume from './resume';
 
 function Navbar() {
 
@@ -35,6 +36,9 @@ function Navbar() {
                 </Route>
                 <Route path="/contact">
                     <Contact />
+                </Route>
+                <Route path="/resume">
+                    <Resume />
                 </Route>
             </Switch>
         </Router>
