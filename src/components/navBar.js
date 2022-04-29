@@ -1,15 +1,15 @@
 import React from 'react';
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route,
     Link,
     Redirect
 } from "react-router-dom";
-import About from './about';
-import Portfolio from './portfolio';
-import Contact from './contact';
-import Resume from './resume';
+import About from '../components/about';
+import Portfolio from '../components/portfolio';
+import Contact from '../components/contact';
+import Resume from '../components/resume';
 
 function Navbar() {
 
@@ -23,20 +23,18 @@ function Navbar() {
                     <Link to="/portfolio">PORTFOLIO</Link>
                     <Link to="/contact">CONTACT</Link>
                     <Link to="/resume">RESUME</Link>
-                    <Redirect from="/" exact to="/about" />
                 </div>
             </div>
 
             <Switch>
-                <Route exact path="/about">
+                <Route exact path="/">
+                    <Redirect to="/about" />
+                </Route>
+                <Route path="/about">
                     <About />
                 </Route>
-                <Route path="/portfolio">
-                    <Portfolio />
-                </Route>
-                <Route path="/contact">
-                    <Contact />
-                </Route>
+                <Route path="/portfolio" component={Portfolio} />
+                <Route path="/contact" component={Contact} />
                 <Route path="/resume">
                     <Resume />
                 </Route>

@@ -3,16 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
-
+import ParticlesBg from "particles-bg";
 
 // https://reactjsexample.com/react-particles-animation-background-component/
 
 ReactDOM.render(
     <Router>
         <App />
-
+        <ParticlesBg type="square" bg={true}/>
     </Router>,
     document.getElementById('root')
 );
