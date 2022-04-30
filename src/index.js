@@ -5,7 +5,6 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { HashRouter as Router } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
-import ParticlesBg from "particles-bg";
 
 // https://reactjsexample.com/react-particles-animation-background-component/
 
