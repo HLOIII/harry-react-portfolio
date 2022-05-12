@@ -2,7 +2,7 @@
 
 ### Application Deployment 
 
-https://hloiii.github.io/harry-react-portfolio/?name=gdfg&email=oharryl95%40gmail.com&message=dddd#/about
+https://hloiii.github.io/harry-react-portfolio/#/about
 
 ### Application Screenshot
 
