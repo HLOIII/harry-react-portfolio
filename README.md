@@ -6,7 +6,8 @@ https://hloiii.github.io/harry-react-portfolio/?name=gdfg&email=oharryl95%40gmai
 
 ### Application Screenshot
 
-![](Capture.PNG)
+## ScreenShot
+![This is a screenshot](client/src/assets/images/port.PNG)
 
 ### User Story
 
